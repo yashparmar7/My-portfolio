@@ -9,17 +9,17 @@ export const HeroSection = () => {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
-              <h1 className="text-[#ff3e00] text-5xl truncate font-bold tracking-tigher py-2">
-                <Typewriter
-                words={['Hey👋, I am Yash Parmar', "Full Stack Web Developer", "PHP Developer", "ReactJS Developer"]} 
-                loop={false} 
-                cursor 
-                cursorStyle='|' 
-                typeSpeed={70} 
-                deleteSpeed={50}
-                delaySpeed={1000}/>
-
-</h1>
+             <h1 className="text-[#ff3e00] text-2xl sm:text-3xl md:text-4xl lg:text-5xl truncate font-bold tracking-tighter py-2">
+      <Typewriter
+        words={['Hey👋, I am Yash Parmar', "Full Stack Web Developer", "PHP Developer", "ReactJS Developer"]}
+        loop={false}
+        cursor
+        cursorStyle='|'
+        typeSpeed={70}
+        deleteSpeed={50}
+        delaySpeed={1000}
+      />
+    </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
                   Experienced PHP and ReactJS developer specializing in creating
                   dynamic, user-friendly web applications. Passionate about
